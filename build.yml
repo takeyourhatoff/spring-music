@@ -10,5 +10,3 @@ run:
   dir: code
   path: ./gradlew
   args: ["clean", "assemble"]
-
-put: build
