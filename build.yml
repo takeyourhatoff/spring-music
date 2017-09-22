@@ -5,9 +5,9 @@ image_resource:
   source: {repository: openjdk}
 
 inputs:
-- name: code
+- name: spring-music
 
 run:
-  dir: code
+  dir: spring-music
   path: ./gradlew
   args: ["clean", "assemble"]
