@@ -1,0 +1,14 @@
+---
+image_resource:
+  type: docker-image
+  source: {repository: openjdk}
+
+inputs:
+- name: code
+
+run:
+  dir: code
+  path: ./gradlew
+  args: ["clean", "assemble"]
+
+put: build
